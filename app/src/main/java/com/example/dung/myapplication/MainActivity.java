@@ -227,6 +227,8 @@ public class MainActivity extends AppCompatActivity {
                                 " ticking = true;\n" +
                                 "});" +
 
+                               // "document.querySelectorAll('')" +
+
                                 "document.addEventListener('DOMNodeInserted', function(event) { " +
                                 "var element = event.target; " +
                                 "if (element.tagName == 'DIV') {" +
@@ -234,6 +236,19 @@ public class MainActivity extends AppCompatActivity {
                                     "if (element.id == 'root') {" +
                                         "var nodeVoice = element.querySelectorAll('.voice.acw.abt');" +
                                         "for (var j = 0; j < nodeVoice.length; j++) {" +
+
+                                            "nodeVoice[j].querySelector('.msg').addEventListener('click', function(event) {" +
+                                                "if (event.target.tagName == 'SPAN') {" +
+                                                    "var spanEle = event.target;" +
+                                                    "var showTimeEle = spanEle.parentElement.parentElement.nextSibling;" +
+                                                    "if (showTimeEle.getAttribute('style') !== null && showTimeEle.getAttribute('style').length > 0) {" +
+                                                        "showTimeEle.setAttribute('style', '');" +
+                                                    "} else {" +
+                                                        "showTimeEle.setAttribute('style', 'display: none;');" +
+                                                    "}" +
+                                                "}" +
+                                            "}, false);" +
+                        
                                             "var actionsMessage = nodeVoice[j].querySelectorAll('.actions.mfss.fcg');" +
                                             "for (var i = 0; i < actionsMessage.length; i++) {" +
                                                 "var childNodesList = actionsMessage[0].childNodes;" +
@@ -242,13 +257,25 @@ public class MainActivity extends AppCompatActivity {
                                                     "var sourceAvtClass = sourceAvt[0].className;" +
                                                     "sourceAvt[0].className = sourceAvtClass + ' avt-messager';" +
                                                 "}" +
-
                                             "}" +
+                                            "actionsMessage[0].setAttribute('style', 'display: none;');" +
                                         "}" +
                                     "}" +
+
                                     "if (element.className == '' && element.querySelectorAll('.voice.acw.abt').length > 0) {" +
                                         "var nodeVoice = element.querySelectorAll('.voice.acw.abt');" +
                                         "for (var j = 0; j < nodeVoice.length; j++) {" +
+                                            "nodeVoice[j].querySelector('.msg').addEventListener('click', function(event) {" +
+                                                "if (event.target.tagName == 'SPAN') {" +
+                                                    "var spanEle = event.target;" +
+                                                    "var showTimeEle = spanEle.parentElement.parentElement.nextSibling;" +
+                                                    "if (showTimeEle.getAttribute('style') !== null && showTimeEle.getAttribute('style').length > 0) {" +
+                                                        "showTimeEle.setAttribute('style', '');" +
+                                                    "} else {" +
+                                                        "showTimeEle.setAttribute('style', 'display: none;');" +
+                                                    "}" +
+                                                "}" +
+                                            "}, false);" +
                                             "var actionsMessage = nodeVoice[j].querySelectorAll('.actions.mfss.fcg');" +
                                             "for (var i = 0; i < actionsMessage.length; i++) {" +
                                                 "var childNodesList = actionsMessage[0].childNodes;" +
@@ -258,17 +285,31 @@ public class MainActivity extends AppCompatActivity {
                                                     "sourceAvt[0].className = sourceAvtClass + ' avt-messager';" +
                                                 "}" +
                                             "}" +
+                                            "actionsMessage[0].setAttribute('style', 'display: none;');" +
                                         "}" +
                                     "}" +
                                     "if (element.className == 'voice acw abt') {" +
                                         "var parents = element.childNodes;" +
                                         "for(var i = 0; i < parents.length; i++) {" +
+                                            "parents[i].querySelector('.msg').addEventListener('click', function(event) {" +
+                                                "if (event.target.tagName == 'SPAN') {" +
+                                                    "var spanEle = event.target;" +
+                                                    "var showTimeEle = spanEle.parentElement.parentElement.parentElement.parentElement.nextSibling.nextSibling;" +
+                                                    "if (showTimeEle.getAttribute('style') !== null && showTimeEle.getAttribute('style').length > 0) {" +
+                                                        "showTimeEle.setAttribute('style', '');" +
+                                                    "} else {" +
+                                                        "showTimeEle.setAttribute('style', 'display: none;');" +
+                                                    "}" +
+                                                "}" +
+                                            "}, false);" +
                                             "var sourceMessage = parents[i].querySelectorAll('.source.mfss.fcg');" +
                                             "if (sourceMessage[0].innerText.indexOf('Messenger') > 0) { " +
                                                 "var sourceAvt = parents[i].querySelectorAll('.darkTouch.l');" +
                                                 "var sourceAvtClass = sourceAvt[0].className;" +
                                                 "sourceAvt[0].className = sourceAvtClass + ' avt-messager';" +
                                             "}" +
+                                            "var actionsMessage = parents[i].querySelectorAll('.actions.mfss.fcg');" +
+                                            "actionsMessage[0].setAttribute('style', 'display: none;');" +
                                         "}"+
                                     "}" +
                                 "} }, false);"
