@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onLoadResource(WebView view, String url) {
                 super.onLoadResource(view, url);
-                Log.e("onLoadResource", url);
+                //Log.e("onLoadResource", url);
             }
 
 
@@ -134,11 +134,15 @@ public class MainActivity extends AppCompatActivity {
                 if (url != null && url.contains("facebook.com/messages")) {
                     cssMessageFileCount = 0;
                     isShouldReplaceMessageCss = true;
+                }else{
+                    isShouldReplaceMessageCss = false;
                 }
 
                 if (url != null && url.contains("facebook.com/buddylist")) {
                     cssOnlineListCount = 0;
                     isShouldReplaceOnlineCss = true;
+                }else {
+                    isShouldReplaceOnlineCss = false;
                 }
 
             }
@@ -156,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
 
         webView.getSettings().setJavaScriptEnabled(true);
 
-        webView.loadUrl(FB_MESSAGE_URL);
+        webView.loadUrl(ONLINE_URL);
     }
 
     @Override
@@ -174,6 +178,7 @@ public class MainActivity extends AppCompatActivity {
         if(url != null && url.contains(".css")/* && url.contains("rsrc.php")*/) {
             Log.e("urlShouldBeHandled", url);
             if( ++cssMessageFileCount == 5 && isShouldReplaceMessageCss) return true;
+            if( ++cssOnlineListCount == 5 && isShouldReplaceOnlineCss) return true;
 
         }
 
