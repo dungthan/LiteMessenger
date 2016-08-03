@@ -1,0 +1,766 @@
+textarea {
+    resize: none;
+}
+#messageGroup i.img.profpic,
+#messageGroup .ib>a>img {
+    border-radius: 50%
+}
+#messageGroup {
+    background-color: #FAFAFA;
+    border: 0
+}
+#messageGroup>div {
+    background: transparent;
+    border: 0
+}
+#messageGroup div.voice.acw.abt {
+    background-color: transparent;
+    border-top: 0
+}
+#messageGroup .chatHighlight,
+#messageGroup .voice.acw.abt {
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
+#messageGroup a.actor-link,
+#messageGroup a.actor-link>br {
+    display: none;
+}
+#messageGroup br {
+    display: none;
+}
+#messageGroup a[href="/user_name"] {
+    position: absolute;
+    right: 0;
+}
+#messageGroup a[href="/user_name"] + div.c {
+    text-align: right;
+    margin-right: 50px;
+}
+#messageGroup br {
+    display: none;
+}
+#messageGroup a[href^="/user_name?"] {
+    position: absolute;
+    right: 0;
+}
+#messageGroup a[href^="/user_name?"] + div.c {
+    text-align: right;
+    margin-right: 50px;
+}
+#messageGroup br {
+    display: none;
+}
+#messageGroup a[href="#!/user_name"] {
+    position: absolute;
+    right: 0;
+}
+#messageGroup a[href="#!/user_name"] + div.c {
+    text-align: right;
+    margin-right: 50px;
+}
+#messageGroup br {
+    display: none;
+}
+#messageGroup a[href^="#!/user_name?"] {
+    position: absolute;
+    right: 0;
+}
+#messageGroup a[href^="#!/user_name?"] + div.c {
+    text-align: right;
+    margin-right: 50px;
+}
+#messageGroup a[href="/user_name"] + div.c .msg div:first-of-type>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+#messageGroup a[href="/user_name"] + div.c .msg div:last-of-type>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#messageGroup div.c .msg div {
+    margin-bottom: 3px;
+}
+#messageGroup a[href="/user_name"] + div.c .msg div>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #0c81e8;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#messageGroup a[href^="/user_name?"] + div.c .msg div:first-of-type>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+#messageGroup a[href^="/user_name?"] + div.c .msg div:last-of-type>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#messageGroup div.c .msg div {
+    margin-bottom: 3px;
+}
+#messageGroup a[href^="/user_name?"] + div.c .msg div>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #0c81e8;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#messageGroup a[href="#!/user_name"] + div.c .msg div:first-of-type>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+#messageGroup a[href="#!/user_name"] + div.c .msg div:last-of-type>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#messageGroup div.c .msg div {
+    margin-bottom: 3px;
+}
+#messageGroup a[href="#!/user_name"] + div.c .msg div>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #0c81e8;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#messageGroup a[href^="#!/user_name?"] + div.c .msg div:first-of-type>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+#messageGroup a[href^="#!/user_name?"] + div.c .msg div:last-of-type>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#messageGroup div.c .msg div {
+    margin-bottom: 3px;
+}
+#messageGroup a[href^="#!/user_name?"] + div.c .msg div>span {
+    text-align: left;
+    width: auto;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #0c81e8;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#messageGroup div.voice.acw.abt .msg {
+    display: inline-block;
+}
+#messageGroup div.voice.acw.abt #messageGroup .msg span.fcg>a {
+    color: black;
+}
+#messageGroup a[href="/user_name"] + div.c .msg span.fcg>a {
+    color: white;
+}
+#messageGroup .msg span.fcg>a>span {
+    display: initial !important;
+}
+#messageGroup .msg span:not(.emoticon):empty {
+    display: none !important;
+}
+#messageGroup div.voice.acw.abt a[href="/user_name"] + div.c .ib.attachment {
+    text-align: right;
+    display: inline-block;
+    padding-bottom: 0;
+    width: auto;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#messageGroup div.voice.acw.abt .ib.attachment .desc.c.mfss {
+    display: inline-block;
+    flex: none;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+#messageGroup div.voice.acw.abt a[href="user_name"] + div.c .ib.attachment i {
+    display: inline-block
+}
+#messageGroup div.voice.acw.abt .msg {
+    display: inline-block;
+}
+#messageGroup div.voice.acw.abt #messageGroup .msg span.fcg>a {
+    color: black;
+}
+#messageGroup a[href^="/user_name?"] + div.c .msg span.fcg>a {
+    color: white;
+}
+#messageGroup .msg span.fcg>a>span {
+    display: initial !important;
+}
+#messageGroup .msg span:not(.emoticon):empty {
+    display: none !important;
+}
+#messageGroup div.voice.acw.abt a[href^="/user_name?"] + div.c .ib.attachment {
+    text-align: right;
+    display: inline-block;
+    padding-bottom: 0;
+    width: auto;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#messageGroup div.voice.acw.abt .ib.attachment .desc.c.mfss {
+    display: inline-block;
+    flex: none;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+#messageGroup div.voice.acw.abt a[href^="user_name?"] + div.c .ib.attachment i {
+    display: inline-block
+}
+#messageGroup div.voice.acw.abt .msg {
+    display: inline-block;
+}
+#messageGroup div.voice.acw.abt #messageGroup .msg span.fcg>a {
+    color: black;
+}
+#messageGroup a[href="#!/user_name"] + div.c .msg span.fcg>a {
+    color: white;
+}
+#messageGroup .msg span.fcg>a>span {
+    display: initial !important;
+}
+#messageGroup .msg span:not(.emoticon):empty {
+    display: none !important;
+}
+#messageGroup div.voice.acw.abt a[href="#!/user_name"] + div.c .ib.attachment {
+    text-align: right;
+    display: inline-block;
+    padding-bottom: 0;
+    width: auto;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#messageGroup div.voice.acw.abt .ib.attachment .desc.c.mfss {
+    display: inline-block;
+    flex: none;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+#messageGroup div.voice.acw.abt a[href="#!user_name"] + div.c .ib.attachment i {
+    display: inline-block
+}
+#messageGroup div.voice.acw.abt .msg {
+    display: inline-block;
+}
+#messageGroup div.voice.acw.abt #messageGroup .msg span.fcg>a {
+    color: black;
+}
+#messageGroup a[href^="/user_name?"] + div.c .msg span.fcg>a {
+    color: white;
+}
+#messageGroup .msg span.fcg>a>span {
+    display: initial !important;
+}
+#messageGroup .msg span:not(.emoticon):empty {
+    display: none !important;
+}
+#messageGroup div.voice.acw.abt a[href^="#!/user_name?"] + div.c .ib.attachment {
+    text-align: right;
+    display: inline-block;
+    padding-bottom: 0;
+    width: auto;
+    padding: 5px;
+    background-color: #0781f8;
+    color: white;
+    border: 1px solid #0c81e8;
+    border-radius: 2px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#messageGroup div.voice.acw.abt .ib.attachment .desc.c.mfss {
+    display: inline-block;
+    flex: none;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+#messageGroup div.voice.acw.abt a[href^="#!user_name?"] + div.c .ib.attachment i {
+    display: inline-block
+}
+#messageGroup div.voice.acw.abt .ib.attachment {
+    padding-bottom: 0;
+    width: auto;
+    padding: 5px;
+    background-color: #e7e7e7;
+    color: black;
+    border: 1px solid #e7e7e7;
+    border-radius: 2px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    display: inline-block;
+}
+#messageGroup div.c .msg div:first-of-type>span {
+    display: inline-block;
+    padding: 5px;
+    background-color: #eaeaea;
+    color: black;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+#messageGroup div.c .msg div:last-of-type>span {
+    display: inline-block;
+    padding: 5px;
+    background-color: #eaeaea;
+    color: black;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#messageGroup div.c .msg div {
+    margin-bottom: 3px;
+}
+#messageGroup div.c .msg div>span {
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    padding: 5px;
+    background-color: #eaeaea;
+    color: black;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#message-reply-composer ._5s61._5eco button i {
+    background-image: url(https://lite_file_ic_msg_panel_smiles);
+    background-position: 0 !important;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
+#message-reply-composer ._5s61._5eco button {
+    padding: 0px !important;
+    height: 24px;
+}
+#message-reply-composer ._5s61._5eco a[role="button"] div._5aqx {
+    background-image: url(https://lite_file_ic_camera);
+    background-position: 0 !important;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
+#message-reply-composer ._5s61._5eco a[role="button"] {
+    padding: 0px;
+}
+#message-reply-composer {
+    border-top: 1px solid #BDBDBD;
+    margin-top: 10px;
+}
+#message-reply-composer {
+    padding-bottom: 0;
+    border-bottom: 1px solid #BDBDBD;
+}
+#message-reply-composer ._5s61._5eco button {
+    padding-top: 0px;
+    background: 0;
+    border: 0
+}
+#message-reply-composer ._5s61._5eco a {
+    padding-top: 8px;
+    background: 0;
+    border: 0
+}
+#message-reply-composer ._5aqv.acw {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+#message-reply-composer ._4g34._52cq textarea {
+    border: none;
+    box-shadow: none;
+    height: 33px;
+    line-height: 24px;
+}
+#message-reply-composer ._5s61 button[name="like"] {
+    padding: 0px;
+    height: 32px;
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+#message-reply-composer ._5s61 button[name="like"] i {
+    background-image: url(https://lite_file_ic_like_send);
+    height: 32px;
+    width: 32px;
+    background-position: 0 !important;
+    margin: 0px !important;
+    background-size: cover;
+}
+#message-reply-composer ._5s61 button[name="send"] {
+    padding: 0px;
+    height: 32px;
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color: #2E5EB6;
+    font-size: 20px;
+    line-height: 25px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+#messageGroup a[href="/user_name"] + div.c .msg {
+    max-width: 85%;
+    float: right;
+}
+#messageGroup .msg {
+    max-width: 85%;
+    float: left;
+}
+#messageGroup .msg span {
+    word-break: break-word;
+}
+#messageGroup .actions.mfss.fcg {
+    clear: both;
+}
+#messageGroup ._4prr::after {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+#messageGroup a[href="/user_name"] + div.c .messageAttachments {
+    width: 100%;
+    text-align: right;
+    clear: both;
+    float: right;
+}
+#messageGroup .messageAttachments {
+    width: 100%;
+    text-align: left;
+    clear: both;
+    float: left;
+}
+#messageGroup a[href="/user_name"] + div.c div.actions.mfss.fcg>span:first-of-type,
+a[href="/user_name"] + div.c div.actions.mfss.fcg>span:first-of-type>span {
+    display: none
+}
+#messageGroup a[href^="/user_name?"] + div.c .msg {
+    max-width: 85%;
+    float: right;
+}
+#messageGroup .msg {
+    max-width: 85%;
+    float: left;
+}
+#messageGroup .msg span {
+    word-break: break-word;
+}
+#messageGroup .actions.mfss.fcg {
+    clear: both;
+}
+#messageGroup ._4prr::after {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+#messageGroup a[href^="/user_name?"] + div.c .messageAttachments {
+    width: 100%;
+    text-align: right;
+    clear: both;
+    float: right;
+}
+#messageGroup .messageAttachments {
+    width: 100%;
+    text-align: left;
+    clear: both;
+    float: left;
+}
+#messageGroup a[href^="/user_name?"] + div.c div.actions.mfss.fcg>span:first-of-type,
+a[href^="/user_name?"] + div.c div.actions.mfss.fcg>span:first-of-type>span {
+    display: none
+}
+#messageGroup a[href="#!/user_name"] + div.c .msg {
+    max-width: 85%;
+    float: right;
+}
+#messageGroup .msg {
+    max-width: 85%;
+    float: left;
+}
+#messageGroup .msg span {
+    word-break: break-word;
+}
+#messageGroup .actions.mfss.fcg {
+    clear: both;
+}
+#messageGroup ._4prr::after {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+#messageGroup a[href="#!/user_name"] + div.c .messageAttachments {
+    width: 100%;
+    text-align: right;
+    clear: both;
+    float: right;
+}
+#messageGroup .messageAttachments {
+    width: 100%;
+    text-align: left;
+    clear: both;
+    float: left;
+}
+#messageGroup a[href="#!/user_name"] + div.c div.actions.mfss.fcg>span:first-of-type,
+a[href="#!/user_name"] + div.c div.actions.mfss.fcg>span:first-of-type>span {
+    display: none
+}
+#messageGroup a[href^="#!/user_name?"] + div.c .msg {
+    max-width: 85%;
+    float: right;
+}
+#messageGroup .msg {
+    max-width: 85%;
+    float: left;
+}
+#messageGroup .msg span {
+    word-break: break-word;
+}
+#messageGroup .actions.mfss.fcg {
+    clear: both;
+}
+#messageGroup ._4prr::after {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+#messageGroup a[href^="#!/user_name?"] + div.c .messageAttachments {
+    width: 100%;
+    text-align: right;
+    clear: both;
+    float: right;
+}
+#messageGroup .messageAttachments {
+    width: 100%;
+    text-align: left;
+    clear: both;
+    float: left;
+}
+#messageGroup a[href^="#!/user_name?"] + div.c div.actions.mfss.fcg>span:first-of-type,
+a[href^="#!/user_name?"] + div.c div.actions.mfss.fcg>span:first-of-type>span {
+    display: none
+}
+#messageGroup a[href="/user_name"] + div.c .msg a,
+#messageGroup a[href="/user_name"] + div.c .messageAttachments a {
+    color: white !important;
+}
+#messageGroup a[href^="/user_name?"] + div.c .msg a,
+#messageGroup a[href^="/user_name?"] + div.c .messageAttachments a {
+    color: white !important;
+}
+#messageGroup a[href="#!/user_name"] + div.c .msg a,
+#messageGroup a[href="#!/user_name"] + div.c .messageAttachments a {
+    color: white !important;
+}
+#messageGroup a[href^="#!/user_name?"] + div.c .msg a,
+#messageGroup a[href^="#!/user_name?"] + div.c .messageAttachments a {
+    color: white !important;
+}
+#root ._5s61._44ql i {
+    background-position: 0 0 !important;
+    background-size: cover;
+    background-image: url(https://lite_file_ic_dots_vertical_black_36dp) !important;
+}
+span[data-sigil="message-source"] {
+    display: none;
+}
+#root.maxwidth.acw[role="main"]>div>._55wr._4g33._52we._44qk {
+    background-color: #FAFAFA;
+    border: 0;
+}
+#threadlist_rows div {
+    border: 0
+}
+#threadlist_rows i.img.profpic,
+#threadlist_rows .primarywrap .image img {
+    height: 46px !important;
+    width: 46px !important;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#threadlist_rows div[id^="threadlist_row_other_user_fbid"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px
+}
+#threadlist_rows i.touched_hide{
+    background-image: url(https://lite_file_msg_check) !important;
+    background-size: cover;
+    background-position: 0 0 !important;
+}
+
+#root>div>div>div:first-child>div.acw a,
+#root>div>div:first-child>div.acw a {
+    background-color: #40609D;
+    color: white;
+    text-shadow: none;
+    background-image: none;
+    border-radius: 0;
+}
+#root>div>div>div:first-child>div.acw div::before,
+#root>div>div:first-child>div.acw div::before {
+    background-image: none !important;
+    border: 0 !important;
+}
+#root>div>div>div:first-child>div:not(.acw) div.acg.apm,
+#root>div>div:first-child>div:not(.acw) div.acg.apm {
+    background-color: #40609D;
+    color: white;
+}
+#root>div>div>div:first-child>div:not(.acw) div.acg.apm input.quicksearch.input,
+#root>div>div:first-child>div:not(.acw) div.acg.apm input.quicksearch.input {
+    border-radius: 5px;
+    border: 0;
+}
+#threadlist_rows + div.acw.apm.abt {
+    display: none;
+}
+#root>div>div>div:first-child>div.acw a[data-store*="group"]>i,
+#root>div>div:first-child>div.acw a[data-store*="group"]>i
+{
+     background-position: 0 0 !important;
+     background-size: cover;
+     width: 26px !important;
+     height: 26px !important;
+     background-image: url(https://lite_file_ic_social) !important;
+}
+#root>div>div>div:first-child>div.acw a>i,
+#root>div>div:first-child>div.acw a>i
+{
+     background-position: 0 0 !important;
+     background-size: cover;
+     width: 24px;
+     height: 24px;
+     background-image: url(https://lite_file_ic_border_color_white_24dp) !important;
+}
+
+
+/*
+#root>div>div:first-child>div.acw a>i {
+    background-position: 0 0 !important;
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(https://lite_file_ic_border_color_white_24dp) !important;
+}*/
