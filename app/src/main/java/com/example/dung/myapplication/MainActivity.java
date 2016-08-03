@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
                                 "style.innerHTML += '#message-reply-composer ._5s61._5eco button {padding: 0px !important; height: 31px;}';" +
                                 "style.innerHTML += '#message-reply-composer ._5s61._5eco a[role=\"button\"] div._5aqx {background-image: url(https://i.imgsafe.org/eb5eeb22d7.png); background-position: 0 !important; width: 32px; height: 32px;}';" +
                                 "style.innerHTML += '#message-reply-composer ._5s61._5eco a[role=\"button\"] {padding: 0px;} '; " +
-                                "style.innerHTML += '#message-reply-composer {border-top: 1px solid #BDBDBD;} '; " +
+                                "style.innerHTML += '#message-reply-composer {border-top: 1px solid #BDBDBD; margin-top: 10px;} '; " +
                                 "style.innerHTML += '#message-reply-composer {padding-bottom: 0; border-bottom:1px solid #BDBDBD;} '; " +
                                 "style.innerHTML += '#message-reply-composer ._5s61._5eco button {padding-top:0px;background:0;border:0} #message-reply-composer ._5s61._5eco a {padding-top:8px;background:0;border:0} #message-reply-composer ._5aqv.acw {padding-left:4px;padding-right:4px;} #message-reply-composer ._4g34._52cq textarea {border: none; box-shadow:none; height: 33px; line-height: 24px;} '; " +
                                 "style.innerHTML += '#message-reply-composer ._5s61 button[name=\"like\"] {padding: 0px; height: 32px; background: transparent; border-color: transparent; box-shadow: none;}';" +
@@ -199,6 +199,10 @@ public class MainActivity extends AppCompatActivity {
                                 "style.innerHTML += '#messageGroup .chatHighlight a.avt-messager img {position: absolute; z-index: -1;}';" +
                                 //remove Online status bar
                                 "style.innerHTML +='#root.maxwidth.acw[role=\"main\"]>div>._55wr._4g33._52we._44qk {display:none;} ';" +
+
+                                //Message list style
+                                "style.innerHTML += '#threadlist_rows div {border: 0} #threadlist_rows i.img.profpic, #threadlist_rows .primarywrap .image img {border-radius:50%; margin-right:10px; } #threadlist_rows div[id^=\"threadlist_row_other_user_fbid\"] {margin-top:10px; margin-bottom:17px; padding-left: 10px} '; " +
+
 
                                 "parent.appendChild(style);" +
 
@@ -248,7 +252,7 @@ public class MainActivity extends AppCompatActivity {
                                                     "}" +
                                                 "}" +
                                             "}, false);" +
-                        
+
                                             "var actionsMessage = nodeVoice[j].querySelectorAll('.actions.mfss.fcg');" +
                                             "for (var i = 0; i < actionsMessage.length; i++) {" +
                                                 "var childNodesList = actionsMessage[0].childNodes;" +
